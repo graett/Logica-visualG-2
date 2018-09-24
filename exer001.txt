@@ -1,0 +1,65 @@
+// Em um curso de Ciência da Computação a nota do estudante é 
+// calculada a partir de três notas atribuídas, 
+// respectivamente, a um trabalho de laboratório, a uma avaliação semestral
+// e a um exame final. As notas variam, de 0 
+// a 10 e a nota final é a média ponderada das três notas mencionadas. A 
+// tabela abaixo fornece os pesos:
+// Laboratório Peso 2
+// Avaliação semestral Peso 3
+// Exame final Peso 5
+// Faça um algoritmo que calcule e mostre a média das notas e atribua conceitos:
+// Acima de 8(A), entre 7 e 8 (B), entre 6 e 7(C), entre 5 e 6(D) e abaixo de 5(E).
+
+
+Algoritmo "PesoNotas"
+
+Var
+nota1, nota2, nota3: real
+peso1, peso2, peso3: real
+media: real
+
+
+Inicio
+escreval("::::NOTAS E PESOS::::")
+escreval("")
+
+escreval("Informe a 1° nota:")
+leia(nota1)
+escreval("")
+
+
+escreval("Informe a 2° nota:")
+leia(nota2)
+escreval("")
+
+
+escreval("Informe a 3° nota:")
+leia(nota3)
+escreval("")
+
+
+media<- (nota1*2 + nota2*3 + nota3*5)/10
+
+escreval("")
+escreva("A média do aluno é: ", media:2:2)
+
+se media > 8 entao
+   escreval(". Conceito A.")
+senao
+se (media > 7) e (media <8) entao
+   escreval(". Conceito B.")
+senao
+se (media > 6) e (media <7) entao
+   escreval(". Conceito C.")
+senao
+se (media > 5) e (media <6) entao
+   escreval(". Conceito D.")
+senao
+   escreval(". Conceito E.")
+fimse
+fimse
+fimse
+fimse
+
+
+Fimalgoritmo
