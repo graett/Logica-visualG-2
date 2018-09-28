@@ -1,0 +1,27 @@
+// Calcular o fatorial de um número inteiro positivo.
+
+Algoritmo "Fatorial"
+
+Var
+n, contador, fatorial: inteiro
+
+
+Inicio
+contador <- 1
+fatorial <- 1
+
+escreval("::::FATORIAL DE UM NÚMERO::::")
+escreval("")
+escreval("Informe um número inteiro igual ou maior que zero:")
+leia(n)
+escreval("")
+
+repita
+fatorial <- fatorial * contador
+contador <- contador + 1
+ate(contador > n)
+escreval(">>>>>>>>>>>>>>>>>>")
+escreval("O fatorial de ", n," é igual a ", fatorial,".")
+escreval(">>>>>>>>>>>>>>>>>>")
+
+Fimalgoritmo
