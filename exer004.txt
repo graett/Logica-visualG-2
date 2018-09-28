@@ -1,0 +1,130 @@
+// Calcular a média entre três notas, eliminando a nota menor
+// e arrendondando para o meio ou o inteiro superior.
+
+
+Algoritmo "Media escolar"
+
+Var
+n1, n2, n3: inteiro
+media: real
+
+
+Inicio
+escreval("::::MÉDIA ESCOLAR::::")
+escreval("")
+
+escreval("Informe a 1² nota:")
+leia(n1)
+escreval("")
+
+escreval("Informe a 2² nota:")
+leia(n2)
+escreval("")
+
+escreval("Informe a 3² nota:")
+leia(n3)
+escreval("")
+
+
+se (n1 < n2) e (n1 < n3) entao
+   n1 <- 0
+senao
+se (n2 < n1) e (n2 < n3) entao
+   n2 <- 0
+senao
+se (n3 < n1) e (n3 < n2) entao
+   n3<- 0
+fimse
+fimse
+fimse
+
+se (n1 = n2) e (n2 = n3) entao
+   media <- (n1+n2+n3)/3
+senao
+   media <- (n1 + n2 + n3)/2
+fimse
+
+
+se (media>0) e (media<=0.5) entao
+   media <- 0.5
+senao
+se (media>0.5) e (media<=1) entao
+   media <- 1
+senao
+se (media>1) e (media<=1.5) entao
+   media <- 1.5
+senao
+se (media>1.5) e (media<=2) entao
+   media <- 2
+senao
+se (media>2) e (media<=2.5) entao
+   media <- 2.5
+senao
+se (media>2.5) e (media<=3) entao
+   media <- 3
+senao
+se (media>3) e (media<=3.5) entao
+   media <- 3.5
+senao
+se (media>3.5) e (media<=4) entao
+   media <- 4
+senao
+se (media>4) e (media<=4.5) entao
+   media <- 4.5
+senao
+se (media>4.5) e (media<=5) entao
+   media <- 5
+senao
+se (media>5.5) e (media<=6) entao
+   media <- 6
+senao
+se (media>6) e (media<=6.5) entao
+   media <- 6.5
+senao
+se (media>6.5) e (media<=7) entao
+   media <- 7
+senao
+se (media>7) e (media<=7.5) entao
+   media <- 7.5
+senao
+se (media>7.5) e (media<=8) entao
+   media <- 8
+senao
+se (media>8) e (media<=8.5) entao
+   media <- 8.5
+senao
+se (media>8.5) e (media<=9) entao
+   media <- 9
+senao
+se (media>9) e (media<=9.5) entao
+   media <- 9.5
+senao
+se (media>9.5) e (media<=10) entao
+   media <- 10
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+fimse
+
+
+escreval("")
+escreval("A média é de: ",media)
+
+
+
+Fimalgoritmo
