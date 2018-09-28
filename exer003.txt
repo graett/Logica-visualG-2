@@ -1,0 +1,47 @@
+// Calcular o máximo divisor comum entre dois números
+
+
+Algoritmo "MDC"
+
+Var
+n1, n2: inteiro
+troca: inteiro
+n_maior, n_menor: inteiro
+
+
+Inicio
+escreval("::::MDC::::")
+escreval("")
+
+escreval("Informe o 1° número:")
+leia(n1)
+escreval("")
+
+escreval("Informe o 2° número:")
+leia(n2)
+escreval("")
+
+se n1> n2 entao
+   n_maior <- n1
+   n_menor <- n2
+senao
+   n_maior <- n2
+   n_menor <- n1
+fimse
+
+repita
+
+troca <- n_menor
+n_menor <- n_maior mod n_menor
+n_maior <- troca
+
+ate (n_maior mod n_menor = 0)
+
+
+escreval ("______________________________________")
+escreval ("O MDC entre ", n1, " e ", n2, " é: ", n_menor,".")
+escreval ("______________________________________")
+
+
+
+Fimalgoritmo
