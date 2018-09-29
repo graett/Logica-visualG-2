@@ -1,0 +1,35 @@
+// Informar um número inteiro n e mostrar quantos números primos
+// existem no intervalo de 1 até n.
+
+Algoritmo "numerosPrimos"
+
+Var
+n, primo, cont1, cont2: inteiro
+
+
+Inicio
+escreval("::::NÚMEROS PRIMOS::::")
+escreval("")
+
+escreval("Informe um número inteiro:")
+leia(n)
+escreval("")
+
+se(n<=0) entao
+    escreval("Número inválido. Informe um número maior que 0.")
+senao
+para cont1 de 1 ate n faca
+primo <-0
+     para cont2 de 1 ate cont1 faca
+     se (cont1 mod cont2 = 0) entao
+     primo <- primo + 1
+     fimse
+     fimpara
+     se (primo = 2)entao
+     escreva(cont1)
+     fimse
+fimpara
+fimse
+escreval("")
+
+Fimalgoritmo
