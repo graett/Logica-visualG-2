@@ -9,3 +9,5 @@ Exer001 - Em um curso de Ciência da Computação a nota do estudante é calcula
 Exer002 - Calcular o fatorial de um número inteiro positivo.
 
 Exer003 - Calcular o máximo divisor comum entre dois números.
+
+Exer004 - Calcular a média entre três notas, eliminando a nota menor e arrendondando para o meio ou o inteiro superior.
