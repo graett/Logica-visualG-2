@@ -13,3 +13,5 @@ Exer003 - Calcular o máximo divisor comum entre dois números.
 Exer004 - Calcular a média entre três notas, eliminando a nota menor e arrendondando para o meio ou o inteiro superior.
 
 Exer005 - Informe um número inteiro n e em seguida mostre todos os números pares no intervalo de 0 até n.
+
+Exer006 - Informar um número inteiro n e mostrar quantos números primos existem até n.
